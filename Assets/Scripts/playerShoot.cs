@@ -6,13 +6,14 @@ public class playerShoot : MonoBehaviour {
 
 	public GameObject bulletPool;
 	public Transform gunBarrel;
+
 	public float cooldowntime;
 
 	private bool _cooldownState;
 
 	private void Awake()
 	{
-		bulletPool = GameObject.Find("BulletPool");
+		
 	}
 	public void Shoot()
 	{
