@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class stopRotation : MonoBehaviour {
+public class followHitBox : MonoBehaviour {
 
 	public Transform playerHitBox;
 	void Update ()

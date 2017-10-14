@@ -21,7 +21,7 @@ public class playerShoot : MonoBehaviour {
 			var Thebullet = bulletPool.transform.GetChild(i);
 			if (!Thebullet.gameObject.activeSelf && !_cooldownState)
 			{
-				Thebullet.GetComponent<bulletMovement>().ShootMe(gunBarrel.transform.position - gunBarrel.transform.forward, Quaternion.LookRotation(gunBarrel.transform.right));
+				Thebullet.GetComponent<bulletMovement>().ShootMe(gunBarrel.transform.position - 1.2f*gunBarrel.transform.forward, Quaternion.LookRotation(gunBarrel.transform.right));
 				_cooldownState = true;
 				StartCoroutine(shotCooldown());
 				break;

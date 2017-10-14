@@ -5,7 +5,6 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour {
 
 	public float speed;
-	public Transform playerHitBox;
 
 	[System.Serializable]
 	[HideInInspector]

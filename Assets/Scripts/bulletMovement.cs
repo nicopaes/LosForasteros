@@ -31,8 +31,7 @@ public class bulletMovement : MonoBehaviour {
 		transform.position = position;
 		transform.rotation = rotation;
 
-		Debug.Log("Bullet Transform Position"+transform.position);	
-		Debug.Log("theObjectWasActivated");
+		//Debug.Log("theObjectWasActivated");
 	}
 	
 	void FixedUpdate ()
